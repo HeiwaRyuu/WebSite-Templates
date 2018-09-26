@@ -1,0 +1,101 @@
+main{
+    display: grid;
+    background: #0080ff;
+    min-height: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    grid-area: main;
+}
+
+header{
+    display: grid;
+    background: #0080ff;
+    min-height: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    grid-area: header;
+}
+
+footer{
+    display: grid;
+    background: #0080ff;
+    min-height: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    grid-area: footer;
+}
+
+aside{
+    display: grid;
+    background: #0080ff;
+    min-height: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    grid-area: aside;
+}
+
+nav{
+    display: grid;
+    background: #0080ff;
+    min-height: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    grid-area: nav;
+}
+
+.Section{
+    display: grid;
+    background: #0080ff;
+    min-height: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    grid-area: section;
+}
+
+.Section1{
+    display: grid;
+    background: #0080ff;
+    min-height: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    grid-area: section1;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 1em;
+    grid-template-areas:
+    "header header header header"
+    "aside aside main main" 
+    "aside aside main main" 
+    "nav nav main main"
+    "nav nav main main"
+    "section section main main"
+    "section section main main"
+    "section1 section1 section1 section1"
+    "section1 section1 section1 section1"
+    "footer footer footer footer";
+}
