@@ -99,3 +99,27 @@ nav{
     "section1 section1 section1 section1"
     "footer footer footer footer";
 }
+
+/* Media Querie */
+
+@media(max-width: 750px){
+    .wrapper{  
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas:
+        "header header"
+        "main main"
+        "main main"
+        "main main"
+        "main main"
+        "main main"
+        "aside aside" 
+        "aside aside" 
+        "nav nav"
+        "nav nav"
+        "section section"
+        "section section"
+        "section1 section1"
+        "section1 section1"
+        "footer footer";
+    }
+}
